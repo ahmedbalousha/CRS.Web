@@ -1,4 +1,5 @@
 ﻿using CRS.Core.Dtos;
+using CRS.Core.Enums;
 using CRS.Core.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,7 @@ namespace CRS.Infrastructure.Services.Cars
         Task<UpdateCarDto> Get(int id);
         Task<int> Update(UpdateCarDto dto);
         Task<List<CarChangeLogViewModel>> GetLog(int id);
+        Task<int> UpdateStatus(int id, CarStatus status);
 
     }
 }

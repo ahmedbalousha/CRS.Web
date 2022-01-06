@@ -1,5 +1,6 @@
 ﻿using CRS.Core.Constants;
 using CRS.Core.Dtos;
+using CRS.Core.Enums;
 using CRS.Infrastructure.Services.Advertisements;
 using CRS.Infrastructure.Services.CarCompanies;
 using CRS.Infrastructure.Services.Cars;
@@ -89,6 +90,13 @@ namespace CRS.Web.Controllers
         {
             await _carService.Delete(id);
             return Ok(Results.DeleteSuccessResult());
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UpdateStatus(int id, CarStatus status)
+        {
+            await _carService.UpdateStatus(id, status);
+            return Ok(Results.UpdateStatusSuccessResult());
         }
 
     }

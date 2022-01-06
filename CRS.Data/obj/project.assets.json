@@ -6172,11 +6172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Data\\CRS.Data.csproj",
+      "projectUniqueName": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Data\\CRS.Data.csproj",
       "projectName": "CRS.Data",
-      "projectPath": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Data\\CRS.Data.csproj",
+      "projectPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Data\\CRS.Data.csproj",
       "packagesPath": "C:\\Users\\ahmedbalousha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Data\\obj\\",
+      "outputPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmedbalousha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6193,8 +6193,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\CRS.Core.csproj": {
-              "projectPath": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\CRS.Core.csproj"
+            "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj": {
+              "projectPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj"
             }
           }
         }

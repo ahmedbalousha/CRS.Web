@@ -156,17 +156,6 @@ namespace CRS.Infrastructure.Services.Cars
             _db.Cars.Update(car);
             await _db.SaveChangesAsync();
 
-            //if (post.Author.FCMToken != null)
-            //{
-            //    await _notificationService.SendByFCM(post.Author.FCMToken, new NotificationDto()
-            //    {
-            //        Title = "Update Post",
-            //        Body = "By Ahmed",
-            //        Action = NotificationAction.General,
-            //        ActionId = ""
-            //    });
-            //}
-
 
             await _emailService.Send(car.Owner.Email, "UPDATE Car STATUS !", $"YOUR Car NOW IS {status.ToString()}");
 

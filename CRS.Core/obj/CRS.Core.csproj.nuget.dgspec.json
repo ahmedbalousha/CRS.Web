@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\CRS.Core.csproj": {}
+    "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\CRS.Core.csproj": {
+    "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\CRS.Core.csproj",
+        "projectUniqueName": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj",
         "projectName": "CRS.Core",
-        "projectPath": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\CRS.Core.csproj",
+        "projectPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj",
         "packagesPath": "C:\\Users\\ahmedbalousha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Core\\obj\\",
+        "outputPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmedbalousha\\AppData\\Roaming\\NuGet\\NuGet.Config",

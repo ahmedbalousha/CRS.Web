@@ -10,3 +10,15 @@ C:\Users\ahmedbalousha\source\repos\CRS\CRS.Core\obj\Debug\net5.0\CRS.Core.cspro
 C:\Users\ahmedbalousha\source\repos\CRS\CRS.Core\obj\Debug\net5.0\CRS.Core.dll
 C:\Users\ahmedbalousha\source\repos\CRS\CRS.Core\obj\Debug\net5.0\ref\CRS.Core.dll
 C:\Users\ahmedbalousha\source\repos\CRS\CRS.Core\obj\Debug\net5.0\CRS.Core.pdb
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\bin\Debug\net5.0\CRS.Core.deps.json
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\bin\Debug\net5.0\CRS.Core.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\bin\Debug\net5.0\ref\CRS.Core.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\bin\Debug\net5.0\CRS.Core.pdb
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.csproj.AssemblyReference.cache
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.AssemblyInfoInputs.cache
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.AssemblyInfo.cs
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.csproj.CoreCompileInputs.cache
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\ref\CRS.Core.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.pdb

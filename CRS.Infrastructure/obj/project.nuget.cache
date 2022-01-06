@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cw1XUo7KT4qNKzTCbi/oAnsRPN5jJWSckn/zEQOLvmyXT+iX1zvZ009TbaVeXbpC9aUlUYYV/QXpiRW4FCYenQ==",
+  "dgSpecHash": "7Am/lhd33hq/cpSt6K+MZ4YUHn5rD/xtyBpRWT8XRg2dODloiV6NStQ+54x0V7qQubB8kMsVxd5E9cNYI9Cawg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmedbalousha\\source\\repos\\CRS\\CRS.Infrastructure\\CRS.Infrastructure.csproj",
+  "projectFilePath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Infrastructure\\CRS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

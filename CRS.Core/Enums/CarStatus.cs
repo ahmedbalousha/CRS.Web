@@ -8,8 +8,8 @@ namespace CRS.Core.Enums
 {
    public enum CarStatus
     {
-        Off = 1,
+        Free = 1,
         Busy = 2,
-        Free = 3
+        Off = 3
     }
 }
