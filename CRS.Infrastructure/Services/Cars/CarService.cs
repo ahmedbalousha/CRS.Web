@@ -48,7 +48,7 @@ namespace CRS.Infrastructure.Services.Cars
 
         public async Task<List<CarViewModel>> GetCarList()
         {
-            var cars = await _db.Cars.Where(x => !x.IsDelete).ToListAsync();
+            var cars = await _db.Cars.Where(x => !x.IsDelete && x.Status == CarStatus.Free).ToListAsync();
             return _mapper.Map<List<CarViewModel>>(cars);
         }
 
