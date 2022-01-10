@@ -161,7 +161,12 @@ namespace CRS.Infrastructure.Services.Cars
 
             return car.Id;
         }
-
+        public int GetNumberTimesRent (int id)
+        {
+            var numberTimesRent =  _db.Contracts.Where(x => x.CarId == id && !x.IsDelete).Count();
+           
+            return numberTimesRent;
+        }
 
     }
 }

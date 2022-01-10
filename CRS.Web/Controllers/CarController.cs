@@ -99,5 +99,12 @@ namespace CRS.Web.Controllers
             return Ok(Results.UpdateStatusSuccessResult());
         }
 
+        [HttpGet]
+        public IActionResult GetRentTimes (int id)
+        {
+         var numberTimesRent =  _carService.GetNumberTimesRent(id);
+            return Ok(numberTimesRent);
+        }
+
     }
 }

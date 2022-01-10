@@ -128,10 +128,10 @@ namespace CRS.Infrastructure.Services.Contracts
             {
                 contract.CustomerId = dto.CustomerId;
             }
-            var updateCar = _db.Cars.SingleOrDefault(x => x.Id == dto.CarId);
-            updateCar.Status = CarStatus.Busy;
-            _db.Cars.Update(updateCar);
-            _db.SaveChanges();
+            //var updateCar = _db.Cars.SingleOrDefault(x => x.Id == dto.CarId);
+            //updateCar.Status = CarStatus.Busy;
+            //_db.Cars.Update(updateCar);
+            //_db.SaveChanges();
             await _db.Contracts.AddAsync(contract);
             await _db.SaveChangesAsync();
            

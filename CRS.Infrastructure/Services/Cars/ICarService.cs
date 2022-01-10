@@ -20,6 +20,7 @@ namespace CRS.Infrastructure.Services.Cars
         Task<int> Update(UpdateCarDto dto);
         Task<List<CarChangeLogViewModel>> GetLog(int id);
         Task<int> UpdateStatus(int id, CarStatus status);
+        int GetNumberTimesRent(int id);
 
     }
 }
