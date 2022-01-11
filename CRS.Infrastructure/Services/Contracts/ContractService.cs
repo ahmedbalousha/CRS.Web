@@ -5,6 +5,7 @@ using CRS.Core.Exceptions;
 using CRS.Core.ViewModels;
 using CRS.Data;
 using CRS.Data.Models;
+using CRS.Infrastructure.Services.Time;
 using CRS.Infrastructure.Services.Users;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -22,13 +23,16 @@ namespace CRS.Infrastructure.Services.Contracts
         private readonly IMapper _mapper;
         private readonly IUserService  _userService;
         private readonly IFileService _fileService;
+        private readonly TimedHostedService _timedHostedService;
 
-        public ContractService(IFileService fileService,CRSDbContext db, IMapper mapper, IUserService userService)
+
+        public ContractService(IFileService fileService,CRSDbContext db, IMapper mapper, IUserService userService, TimedHostedService timedHostedService)
         {
             _db = db;
             _mapper = mapper;
             _fileService = fileService;
             _userService = userService;
+            _timedHostedService = timedHostedService;
         }
 
         

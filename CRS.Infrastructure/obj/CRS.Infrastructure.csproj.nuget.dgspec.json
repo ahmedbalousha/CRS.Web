@@ -104,6 +104,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.28, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
