@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CRS.Web/1.0.0": {
         "dependencies": {
+          "CRS.Data": "1.0.0",
           "CRS.Infrastructure": "1.0.0",
           "Hangfire.AspNetCore": "1.7.28",
           "Hangfire.Core": "1.7.28",

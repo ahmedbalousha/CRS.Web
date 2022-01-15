@@ -20,7 +20,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Hangfire;
 using Hangfire.SqlServer;
-using CRS.Infrastructure.Services.Time;
 
 namespace CRS.Web
 {
@@ -60,13 +59,13 @@ namespace CRS.Web
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             //    .AddEntityFrameworkStores<CRSDbContext>();
             services.RegisterServices();
-            services.AddHostedService<TimedHostedService>();
+            //services.AddHostedService<TimedHostedService>();
 
         }
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IBackgroundJobClient backgroundJobs, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app,  IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -94,7 +93,6 @@ namespace CRS.Web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapHangfireDashboard();
 
                 endpoints.MapRazorPages();
             });

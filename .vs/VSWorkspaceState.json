@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CRS.Infrastructure",
-    "\\CRS.Infrastructure\\Services",
-    "\\CRS.Infrastructure\\Services\\Contracts"
+    ""
   ],
-  "SelectedNode": "\\CRS.Infrastructure\\Services\\Contracts\\ContractService.cs",
+  "SelectedNode": "\\CRS.sln",
   "PreviewInSolutionExplorer": false
 }
