@@ -31,9 +31,20 @@ namespace CRS.Infrastructure.Services.Users
             _emailService = emailService;
         }
 
-       
+        public async Task<string> SetFCMToUser(string userId, string fcmToken)
+        {
+            var user = _db.Users.SingleOrDefault(x => x.Id == userId && !x.IsDelete);
+            if (user == null)
+            {
+                throw new EntityNotFoundException();
+            }
+            user.FCMToken = fcmToken;
+            _db.Users.Update(user);
+            await _db.SaveChangesAsync();
+            return user.Id;
+        }
 
-       
+
         public  UserViewModel GetUserByUsername(string username)
         {
             var user =  _db.Users.SingleOrDefault(x => x.UserName == username && !x.IsDelete);

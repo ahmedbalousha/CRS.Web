@@ -25,6 +25,16 @@ namespace CRS.Web.Controllers
             return View();
         }
 
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> AddFCM(string fcm)
+        {
+            await _userService.SetFCMToUser(userId, fcm);
+            return Ok("Updated FCM User");
+        }
+
         public async Task<JsonResult> GetUserData(Pagination pagination,Query query)
         {
             var result = await _userService.GetAll(pagination, query);

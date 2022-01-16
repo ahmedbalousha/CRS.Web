@@ -17,6 +17,6 @@ namespace CRS.Infrastructure.Services.Users
         UserViewModel GetUserByUsername(string username);
         Task<string> Delete(string Id);
         Task<UpdateUserDto> Get(string Id);
-
+        Task<string> SetFCMToUser(string userId, string fcmToken);
     }
 }
