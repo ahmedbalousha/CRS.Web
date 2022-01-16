@@ -17,6 +17,7 @@ namespace CRS.Data.Models
         public DateTime? DOB { get; set; }
         public string ImageUrl { get; set; }
         public UserType UserType { get; set; }
+        public string FCMToken { get; set; }
         public bool IsDelete { get; set; }
         public DateTime CreatedAt { get; set; }
         public string CreatedBy { get; set; }
@@ -25,7 +26,8 @@ namespace CRS.Data.Models
         public List<Advertisement> Advertisements { get; set; }
         public List<Car> Cars { get; set; }
         public List<Contract> Contracts { get; set; }
-
+        public List<Email> Emails { get; set; }
+        public List<Notification> Notifications { get; set; }
 
 
     }

@@ -4,6 +4,7 @@ using CRS.Infrastructure.Services.Advertisements;
 using CRS.Infrastructure.Services.CarCompanies;
 using CRS.Infrastructure.Services.Cars;
 using CRS.Infrastructure.Services.Contracts;
+using CRS.Infrastructure.Services.Notifications;
 using CRS.Infrastructure.Services.Users;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -27,8 +28,10 @@ namespace CRS.Infrastructure.Extentions
             services.AddTransient<IAdvertisementService, AdvertisementService>();
             services.AddTransient<IContractService, ContractService>();
             services.AddTransient<IDashboardService, DashboardService>();
+            services.AddTransient<INotificationService, NotificationService>();
 
-            
+
+
             return services;
         }
     }

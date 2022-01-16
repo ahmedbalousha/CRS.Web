@@ -20,6 +20,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Hangfire;
 using Hangfire.SqlServer;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using System.IO;
 
 namespace CRS.Web
 {
@@ -86,7 +89,10 @@ namespace CRS.Web
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseExceptionHandler(opts => opts.UseMiddleware<ExceptionHandler>());
-           
+            FirebaseApp.Create(new AppOptions()
+            {
+                Credential = GoogleCredential.FromFile(Path.Combine(env.WebRootPath, "crsa-b0a4b-firebase-adminsdk-n09fl-1e71ff8862.json")),
+            });
 
             app.UseEndpoints(endpoints =>
             {

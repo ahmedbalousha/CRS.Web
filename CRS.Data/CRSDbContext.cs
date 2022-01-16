@@ -27,6 +27,8 @@ namespace CRS.Data
         public DbSet<CarCompany> CarCompanies { get; set; }
         public DbSet<Contract> Contracts { get; set; }
         public DbSet<CarChangeLog> CarChangeLogs { get; set; }
+        public DbSet<Email> Emails { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
 
         //public DbSet<UserContract> UserContracts { get; set; }
 
