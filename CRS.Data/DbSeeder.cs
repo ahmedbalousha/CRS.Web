@@ -50,7 +50,7 @@ namespace CRS.Data
             carCompany2.CreatedAt = DateTime.Now;
 
             carCompanies.Add(carCompany);
-            carCompanies.Add(carCompany);
+            carCompanies.Add(carCompany2);
 
             await _db.CarCompanies.AddRangeAsync(carCompanies);
             await _db.SaveChangesAsync();

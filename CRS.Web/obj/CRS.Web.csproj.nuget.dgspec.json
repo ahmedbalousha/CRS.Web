@@ -255,9 +255,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Data\\CRS.Data.csproj": {
-                "projectPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Data\\CRS.Data.csproj"
-              },
               "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Infrastructure\\CRS.Infrastructure.csproj": {
                 "projectPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Infrastructure\\CRS.Infrastructure.csproj"
               }

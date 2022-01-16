@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CRS.Web.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class BaseController : Controller
     {
         protected readonly IUserService _userService;

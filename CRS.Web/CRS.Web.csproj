@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CRS.Data\CRS.Data.csproj" />
     <ProjectReference Include="..\CRS.Infrastructure\CRS.Infrastructure.csproj" />
   </ItemGroup>
 

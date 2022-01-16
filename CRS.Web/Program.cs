@@ -1,3 +1,5 @@
+
+using CRS.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -13,7 +15,8 @@ namespace CRS.Web
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().SeedDb().Run();
+            
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -24,3 +27,4 @@ namespace CRS.Web
                 });
     }
 }
+//
