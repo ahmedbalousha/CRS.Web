@@ -6,6 +6,8 @@ using CRS.Core.ViewModels;
 using CRS.Data;
 using CRS.Data.Models;
 using CRS.Infrastructure.Helpers;
+using Hangfire;
+using MailKit;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -139,8 +141,9 @@ namespace CRS.Infrastructure.Services.Users
             {
 
             }
-          
 
+            //BackgroundJob.Enqueue<_emailService>.Send("hangfire@example.com");
+            //BackgroundJob.Enqueue(() => Console.WriteLine("Hello, world!"));
             await _emailService.Send(user.Email, "New Account !", $"Username is : {user.Email} and Password is { password }");
 
             return user.Id;

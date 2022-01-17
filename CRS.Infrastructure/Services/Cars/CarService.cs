@@ -143,15 +143,6 @@ namespace CRS.Infrastructure.Services.Cars
                 throw new EntityNotFoundException();
             }
 
-            var changeLog = new CarChangeLog();
-            changeLog.ContentId = car.Id;
-            changeLog.Old = car.Status;
-            changeLog.New = status;
-            changeLog.ChangeAt = DateTime.Now;
-
-            await _db.CarChangeLogs.AddAsync(changeLog);
-            await _db.SaveChangesAsync();
-
             car.Status = status;
             _db.Cars.Update(car);
             await _db.SaveChangesAsync();
