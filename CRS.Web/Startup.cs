@@ -91,7 +91,7 @@ namespace CRS.Web
             app.UseExceptionHandler(opts => opts.UseMiddleware<ExceptionHandler>());
             FirebaseApp.Create(new AppOptions()
             {
-                Credential = GoogleCredential.FromFile(Path.Combine(env.WebRootPath, "crsa-b0a4b-firebase-adminsdk-n09fl-1e71ff8862.json")),
+                Credential = GoogleCredential.FromFile(Path.Combine(env.WebRootPath, "crsweb-23359-firebase-adminsdk-h9h1p-c68b5f50cb.json")),
             });
 
             app.UseEndpoints(endpoints =>

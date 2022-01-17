@@ -435,3 +435,7 @@ D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Google.Apis.d
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Google.Apis.Auth.PlatformServices.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Google.Apis.Auth.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Google.Apis.Core.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\ClosedXML.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\System.IO.Packaging.dll

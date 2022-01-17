@@ -34,6 +34,11 @@ namespace CRS.Web.Controllers
             await _userService.SetFCMToUser(userId, fcm);
             return Ok("Updated FCM User");
         }
+        [HttpGet]
+        public async Task<IActionResult> ExportToExcel()
+        {
+            return File(await _userService.ExportToExcel(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "report.xlsx");
+        }
 
         public async Task<JsonResult> GetUserData(Pagination pagination,Query query)
         {

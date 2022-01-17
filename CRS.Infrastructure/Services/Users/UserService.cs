@@ -5,6 +5,7 @@ using CRS.Core.Exceptions;
 using CRS.Core.ViewModels;
 using CRS.Data;
 using CRS.Data.Models;
+using CRS.Infrastructure.Helpers;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -43,7 +44,25 @@ namespace CRS.Infrastructure.Services.Users
             await _db.SaveChangesAsync();
             return user.Id;
         }
+        public async Task<byte[]> ExportToExcel()
+        {
+            var users = await _db.Users.Where(x => !x.IsDelete).ToListAsync();
 
+            return ExcelHelpers.ToExcel(new Dictionary<string, ExcelColumn>
+            {
+                {"FullName", new ExcelColumn("FullName", 0)},
+                {"Email", new ExcelColumn("Email", 1)},
+                {"Phone", new ExcelColumn("Phone", 2)}
+            }, new List<ExcelRow>(users.Select(e => new ExcelRow
+            {
+                Values = new Dictionary<string, string>
+                {
+                    {"FullName", e.FullName},
+                    {"Email", e.Email},
+                    {"Phone", e.PhoneNumber}
+                }
+            })));
+        }
 
         public  UserViewModel GetUserByUsername(string username)
         {

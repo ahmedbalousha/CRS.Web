@@ -18,5 +18,6 @@ namespace CRS.Infrastructure.Services.Users
         Task<string> Delete(string Id);
         Task<UpdateUserDto> Get(string Id);
         Task<string> SetFCMToUser(string userId, string fcmToken);
+        Task<byte[]> ExportToExcel();
     }
 }

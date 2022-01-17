@@ -372,44 +372,53 @@
 
 
     <script type="module">
-     
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-analytics.js";
-        
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
-            apiKey: "AIzaSyBpEzffsqEiMTDPMsFmHNmpRNjWEFkNQc0",
-            authDomain: "crsa-b0a4b.firebaseapp.com",
-            projectId: "crsa-b0a4b",
-            storageBucket: "crsa-b0a4b.appspot.com",
-            messagingSenderId: "525382095637",
-            appId: "1:525382095637:web:3790249a7f82b6f7e38f1c",
-            measurementId: "G-S4VFST2RLD"
+            apiKey: "AIzaSyDCD-OxhduEfdvosDnkx1rdrsBAV5B8h3I",
+            authDomain: "crsweb-23359.firebaseapp.com",
+            projectId: "crsweb-23359",
+            storageBucket: "crsweb-23359.appspot.com",
+            messagingSenderId: "290847023071",
+            appId: "1:290847023071:web:8ac3422494b9ed3652ee6a",
+            measurementId: "G-HG9XS7RR5W"
         };
 
         // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    
 
-        const messaging = firebase.messaging();
+        //// Initialize Firebase
+        //firebase.initializeApp(firebaseConfig);
 
-        messaging.requestPermission().then(() => {
-            return messaging.getToken();
-        }).then(token => {
-            console.log(token);
-            $.ajax({
-                url: "/User/AddFCM?fcm=" + token,
-                type: 'GET',
-                dataType: 'json',
-                success: function (res) {
-                    console.log(res);
-                }
-            });
-        }).catch(err => {
+        //const messaging = firebase.messaging();
 
-        })
+        //messaging.requestPermission().then(() => {
+        //    return messaging.getToken();
+        //}).then(token => {
+        //    console.log(token);
+        //    $.ajax({
+        //        url: "/User/AddFCM?fcm=" + token,
+        //        type: 'GET',
+        //        dataType: 'json',
+        //        success: function (res) {
+        //            console.log(res);
+        //        }
+        //    });
+        //}).catch(err => {
 
-        messaging.onMessage(payload => {
-            alert("ahmed");
-        })
+        //})
+
+        //messaging.onMessage(payload => {
+        //    alert("ahmed");
+        //})
     </script>
 
 
