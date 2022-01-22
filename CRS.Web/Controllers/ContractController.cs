@@ -27,6 +27,12 @@ namespace CRS.Web.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public async Task<IActionResult> GetContractByCustomer (string serachKey)
+        {
+            var result = await _contractService.GetContractByCustoumer(serachKey);
+            return Ok (result);
+        }
 
         public async Task<JsonResult> GetContractData(Pagination pagination, Query query)
         {

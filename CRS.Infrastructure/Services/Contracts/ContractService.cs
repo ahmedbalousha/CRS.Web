@@ -41,6 +41,17 @@ namespace CRS.Infrastructure.Services.Contracts
             return _mapper.Map<List<UserViewModel>>(users);
         }
 
+        public async Task <List<ContractViewModel>> GetContractByCustoumer (string serachKey)
+        {
+            var contracts = _db.Contracts.Where(x => !x.IsDelete && x.Customer.FullName.Contains(serachKey)
+            || x.Customer.PhoneNumber.Contains(serachKey)
+            || x.Customer.IdNumber.Contains(serachKey)
+            || string.IsNullOrWhiteSpace(serachKey)).ToList();
+            return _mapper.Map<List<ContractViewModel>>(contracts);
+
+        }
+
+
         public async Task<ResponseDto> GetAll(Pagination pagination, Query query)
         {
             var queryString = _db.Contracts

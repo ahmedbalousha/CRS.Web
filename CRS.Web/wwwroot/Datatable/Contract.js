@@ -69,8 +69,8 @@ var KTDatatableAutoColumnHideDemo = function () {
                     title: 'ملف العقد ',
                     width: '80',
                     template: function (data) {
-                        return '< a class="btn btn-primary"src = "/contracts/' + data.imageUrl + '" />';
-                           
+                        return '<a href ="/Images/" target="_blank">' + data.imageUrl+'  </a >';
+      
                     }
                 },
                 
