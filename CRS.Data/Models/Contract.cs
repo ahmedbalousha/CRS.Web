@@ -15,7 +15,7 @@ namespace CRS.Data.Models
         public string ImageUrl { get; set; }
         public float Price { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
+        public DateTime EndDate { get; set; }
         public int CarId { get; set; }
         public Car Car { get; set; }
         //public string CarRentalId { get; set; }

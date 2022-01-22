@@ -12,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CRS.Core.Dtos;
 using CRS.Core.Enums;
+using Hangfire;
 
 namespace CRS.Infrastructure.Services.Cars
 {
@@ -145,6 +146,9 @@ namespace CRS.Infrastructure.Services.Cars
 
             car.Status = status;
             _db.Cars.Update(car);
+            var jobId = BackgroundJob.Schedule(
+            () => Console.WriteLine("Delayed!"),
+            TimeSpan.FromDays(7));
             await _db.SaveChangesAsync();
 
 
