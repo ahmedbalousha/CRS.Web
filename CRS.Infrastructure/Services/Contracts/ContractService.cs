@@ -43,7 +43,13 @@ namespace CRS.Infrastructure.Services.Contracts
 
         public async Task<ResponseDto> GetAll(Pagination pagination, Query query)
         {
-            var queryString = _db.Contracts.Include(x => x.Customer).Include(x => x.Car).Where(x => !x.IsDelete).AsQueryable();
+            var queryString = _db.Contracts
+                .Include(x => x.Customer).Include(x => x.Car)
+                .Where(x => !x.IsDelete
+            && (x.Car.CarNumber.Contains(query.GeneralSearch)
+            || string.IsNullOrWhiteSpace(query.GeneralSearch)
+            || x.Customer.FullName.Contains(query.GeneralSearch))
+            ).AsQueryable();
 
             var dataCount = queryString.Count();
             var skipValue = pagination.GetSkipValue();

@@ -28,23 +28,7 @@ namespace CRS.Web
 {
     public class Startup
     {
-        //private IEnumerable<IDisposable> GetHangfireServers()
-        //{
-        //    GlobalConfiguration.Configuration
-        //        .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
-        //        .UseSimpleAssemblyNameTypeSerializer()
-        //        .UseRecommendedSerializerSettings()
-        //        .UseSqlServerStorage("Server=localhost\\SQLEXPRESS; Database=HangfireTest; Integrated Security=True;", new SqlServerStorageOptions
-        //        {
-        //            CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
-        //            SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
-        //            QueuePollInterval = TimeSpan.Zero,
-        //            UseRecommendedIsolationLevel = true,
-        //            DisableGlobalLocks = true
-        //        });
-
-        //    yield return new BackgroundJobServer();
-        //}
+       
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -85,7 +69,7 @@ namespace CRS.Web
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IBackgroundJobClient backgroundJobs, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -103,7 +87,7 @@ namespace CRS.Web
 
             app.UseRouting();
             //app.UseHangfireAspNet(GetHangfireServers);
-            app.UseHangfireDashboard();
+            //app.UseHangfireDashboard();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseExceptionHandler(opts => opts.UseMiddleware<ExceptionHandler>());

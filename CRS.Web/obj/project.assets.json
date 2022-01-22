@@ -145,21 +145,6 @@
           "lib/netstandard2.0/Google.Apis.Core.dll": {}
         }
       },
-      "Hangfire.AspNetCore/1.7.28": {
-        "type": "package",
-        "dependencies": {
-          "Hangfire.Core": "[1.7.28]"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "Hangfire.Core/1.7.28": {
         "type": "package",
         "dependencies": {
@@ -3754,33 +3739,6 @@
         "lib/netstandard2.0/Google.Apis.Core.dll",
         "lib/netstandard2.0/Google.Apis.Core.pdb",
         "lib/netstandard2.0/Google.Apis.Core.xml"
-      ]
-    },
-    "Hangfire.AspNetCore/1.7.28": {
-      "sha512": "ebtnPXhuciYXRl7B1UK6IZ32cdFmGvBQ++sjKNiaAp2HEKaqfqYbVgbwijbIOQsT59rja8JqfEsy3KX0TWxAPg==",
-      "type": "package",
-      "path": "hangfire.aspnetcore/1.7.28",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "COPYING",
-        "COPYING.LESSER",
-        "LICENSE.md",
-        "LICENSE_ROYALTYFREE",
-        "LICENSE_STANDARD",
-        "NOTICES",
-        "hangfire.aspnetcore.1.7.28.nupkg.sha512",
-        "hangfire.aspnetcore.nuspec",
-        "lib/net451/Hangfire.AspNetCore.dll",
-        "lib/net451/Hangfire.AspNetCore.xml",
-        "lib/net461/Hangfire.AspNetCore.dll",
-        "lib/net461/Hangfire.AspNetCore.xml",
-        "lib/netcoreapp3.0/Hangfire.AspNetCore.dll",
-        "lib/netcoreapp3.0/Hangfire.AspNetCore.xml",
-        "lib/netstandard1.3/Hangfire.AspNetCore.dll",
-        "lib/netstandard1.3/Hangfire.AspNetCore.xml",
-        "lib/netstandard2.0/Hangfire.AspNetCore.dll",
-        "lib/netstandard2.0/Hangfire.AspNetCore.xml"
       ]
     },
     "Hangfire.Core/1.7.28": {
@@ -11083,9 +11041,6 @@
     "net5.0": [
       "CRS.Infrastructure >= 1.0.0",
       "Google.Apis.Core >= 1.55.0",
-      "Hangfire.AspNetCore >= 1.7.28",
-      "Hangfire.Core >= 1.7.28",
-      "Hangfire.SqlServer >= 1.7.28",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.13",
@@ -11138,18 +11093,6 @@
           "Google.Apis.Core": {
             "target": "Package",
             "version": "[1.55.0, )"
-          },
-          "Hangfire.AspNetCore": {
-            "target": "Package",
-            "version": "[1.7.28, )"
-          },
-          "Hangfire.Core": {
-            "target": "Package",
-            "version": "[1.7.28, )"
-          },
-          "Hangfire.SqlServer": {
-            "target": "Package",
-            "version": "[1.7.28, )"
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",

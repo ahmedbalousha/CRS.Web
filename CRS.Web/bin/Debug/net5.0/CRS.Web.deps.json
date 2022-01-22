@@ -35,9 +35,6 @@
         "dependencies": {
           "CRS.Infrastructure": "1.0.0",
           "Google.Apis.Core": "1.55.0",
-          "Hangfire.AspNetCore": "1.7.28",
-          "Hangfire.Core": "1.7.28",
-          "Hangfire.SqlServer": "1.7.28",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.10",
           "Microsoft.AspNetCore.Identity.UI": "5.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.13",
@@ -462,20 +459,6 @@
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Core.dll": {}
-        }
-      },
-      "Hangfire.AspNetCore/1.7.28": {
-        "dependencies": {
-          "Hangfire.Core": "1.7.28"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {
-            "assemblyVersion": "1.7.28.0",
-            "fileVersion": "1.7.28.0"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {}
         }
       },
       "Hangfire.Core/1.7.28": {
@@ -4689,13 +4672,6 @@
       "sha512": "sha512-QX6pmjRxZYgyGFqsa7tyxdjoEb6ssJ9lv6ub8AxhPd/BCMEglmqzW4GpsuKQZaRg9Qq9gp9HRzjCiLZ3RgmNgw==",
       "path": "google.apis.core/1.55.0",
       "hashPath": "google.apis.core.1.55.0.nupkg.sha512"
-    },
-    "Hangfire.AspNetCore/1.7.28": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ebtnPXhuciYXRl7B1UK6IZ32cdFmGvBQ++sjKNiaAp2HEKaqfqYbVgbwijbIOQsT59rja8JqfEsy3KX0TWxAPg==",
-      "path": "hangfire.aspnetcore/1.7.28",
-      "hashPath": "hangfire.aspnetcore.1.7.28.nupkg.sha512"
     },
     "Hangfire.Core/1.7.28": {
       "type": "package",

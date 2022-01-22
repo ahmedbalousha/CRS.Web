@@ -283,18 +283,6 @@
               "target": "Package",
               "version": "[1.55.0, )"
             },
-            "Hangfire.AspNetCore": {
-              "target": "Package",
-              "version": "[1.7.28, )"
-            },
-            "Hangfire.Core": {
-              "target": "Package",
-              "version": "[1.7.28, )"
-            },
-            "Hangfire.SqlServer": {
-              "target": "Package",
-              "version": "[1.7.28, )"
-            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"

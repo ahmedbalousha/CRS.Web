@@ -382,7 +382,6 @@ D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\obj\Debug\net5.0\CRS.Web.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\obj\Debug\net5.0\ref\CRS.Web.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\obj\Debug\net5.0\CRS.Web.pdb
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\obj\Debug\net5.0\CRS.Web.genruntimeconfig.cache
-D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Hangfire.AspNetCore.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Hangfire.Core.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\Hangfire.SqlServer.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Web\bin\Debug\net5.0\System.Data.SqlClient.dll
