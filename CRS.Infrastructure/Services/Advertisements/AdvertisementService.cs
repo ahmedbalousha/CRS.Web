@@ -40,7 +40,10 @@ namespace CRS.Infrastructure.Services.Advertisements
 
         public async Task<ResponseDto> GetAll(Pagination pagination, Query query)
         {
-            var queryString = _db.Advertisements.Include(x => x.Advertiser).Where(x => !x.IsDelete).AsQueryable();
+            var queryString = _db.Advertisements.Include(x => x.Advertiser).Where(x => !x.IsDelete
+            && (x.Car.CarNumber.Contains(query.GeneralSearch)
+            || string.IsNullOrWhiteSpace(query.GeneralSearch)
+            || x.Advertiser.FullName.Contains(query.GeneralSearch))).AsQueryable();
 
             var dataCount = queryString.Count();
             var skipValue = pagination.GetSkipValue();

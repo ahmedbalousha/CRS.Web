@@ -55,7 +55,13 @@ namespace CRS.Infrastructure.Services.Cars
 
         public async Task<ResponseDto> GetAll(Pagination pagination, Query query)
         {
-            var queryString = _db.Cars.Include(x => x.Owner).Include(x => x.CarCompany).Where(x => !x.IsDelete).AsQueryable();
+            var queryString = _db.Cars.Include(x => x.Owner).Include(x => x.CarCompany).Where(x => !x.IsDelete
+             && (x.CarNumber.Contains(query.GeneralSearch)
+            || string.IsNullOrWhiteSpace(query.GeneralSearch)
+            || x.Owner.FullName.Contains(query.GeneralSearch)
+            || x.CarCompany.Name.Contains(query.GeneralSearch)
+            )).AsQueryable();
+
 
             var dataCount = queryString.Count();
             var skipValue = pagination.GetSkipValue();
