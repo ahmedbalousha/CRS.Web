@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CRS.Web"
   ],
-  "SelectedNode": "\\CRS.sln",
+  "SelectedNode": "\\CRS.Web\\CRS.Web.csproj",
   "PreviewInSolutionExplorer": false
 }

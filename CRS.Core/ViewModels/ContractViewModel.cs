@@ -11,8 +11,8 @@ namespace CRS.Core.ViewModels
         public int Id { get; set; }
         public string ImageUrl { get; set; }
         public float Price { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public string StartDate { get; set; }
+        public string EndDate { get; set; }
         public CarViewModel Car { get; set; }
         public UserViewModel Customer { get; set; }
     }

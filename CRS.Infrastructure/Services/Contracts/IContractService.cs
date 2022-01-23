@@ -16,6 +16,6 @@ namespace CRS.Infrastructure.Services.Contracts
         Task<List<UserViewModel>> GetCustomers();
         Task<int> Update(UpdateContractDto dto);
         Task<UpdateContractDto> Get(int id);
-        Task<List<ContractViewModel>> GetContractByCustoumer(string serachKey);
+        //Task<List<ContractViewModel>> GetContractByCustoumer(string serachKey);
     }
 }

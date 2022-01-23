@@ -46,7 +46,7 @@ namespace CRS.Infrastructure.AutoMapper
                 //.ForMember(x => x.StartDate, x => x.MapFrom(x => x.StartDate.ToString("yyyy:MM:dd")))
                 //.ForMember(x => x.EndDate, x => x.MapFrom(x => x.EndDate.ToString("yyyy:MM:dd")));
 
-            CreateMap<CreateContractDto, Contract>().ForMember(x => x.ImageUrl, x => x.Ignore()).ForMember(x => x.Customer, x => x.Ignore()); 
+        CreateMap<CreateContractDto, Contract>().ForMember(x => x.ImageUrl, x => x.Ignore()).ForMember(x => x.Customer, x => x.Ignore()); 
         CreateMap<UpdateContractDto, Contract>().ForMember(x => x.ImageUrl, x => x.Ignore()).ForMember(x => x.Customer, x => x.Ignore());
         CreateMap<Contract, UpdateContractDto>().ForMember(x => x.Image, x => x.Ignore());
 
