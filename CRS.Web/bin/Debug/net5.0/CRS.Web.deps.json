@@ -35,7 +35,7 @@
         "dependencies": {
           "CRS.Infrastructure": "1.0.0",
           "Google.Apis.Core": "1.55.0",
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.10",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.13",
           "Microsoft.AspNetCore.Identity.UI": "5.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.13",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
@@ -578,14 +578,14 @@
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.10": {
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.13": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "5.0.13"
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.1021.41022"
+            "assemblyVersion": "5.0.13.0",
+            "fileVersion": "5.0.1321.57202"
           }
         },
         "compile": {
@@ -4715,12 +4715,12 @@
       "path": "microsoft.aspnetcore.cryptography.keyderivation/5.0.13",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.5.0.13.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.10": {
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4TvRMPlwQLDlxhHcjrhIdBkQapnqu4UgcThFGtpHDBwg7X0PMDeOan+4OwYzd4SXXsa6V6iB4SH4dx+5smje/g==",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/5.0.10",
-      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.10.nupkg.sha512"
+      "sha512": "sha512-o136u7YHuhXB9IJ4PF0AE5cKtFoBPCpvCaJm13BduqvqjQ+TCgmfrillX00PoegAyX/xOdz7VI9EhpA+f258zw==",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/5.0.13",
+      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.13.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",

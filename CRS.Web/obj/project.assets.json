@@ -253,10 +253,10 @@
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.10": {
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.10"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.13"
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
@@ -3930,10 +3930,10 @@
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.10": {
-      "sha512": "4TvRMPlwQLDlxhHcjrhIdBkQapnqu4UgcThFGtpHDBwg7X0PMDeOan+4OwYzd4SXXsa6V6iB4SH4dx+5smje/g==",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.13": {
+      "sha512": "o136u7YHuhXB9IJ4PF0AE5cKtFoBPCpvCaJm13BduqvqjQ+TCgmfrillX00PoegAyX/xOdz7VI9EhpA+f258zw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/5.0.10",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/5.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3941,7 +3941,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
         "lib/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.13.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
@@ -11041,7 +11041,7 @@
     "net5.0": [
       "CRS.Infrastructure >= 1.0.0",
       "Google.Apis.Core >= 1.55.0",
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.10",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.13",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.13",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
@@ -11096,7 +11096,7 @@
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[5.0.10, )"
+            "version": "[5.0.13, )"
           },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",

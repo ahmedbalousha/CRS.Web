@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DThk2E5iFk01DcIfojPrLd+Uko40r+r6sPwpcoWbNQO7AGuxbK0JO5734Q5eJJtz6qTb9d95g9q27SzPvC4TKA==",
+  "dgSpecHash": "cNLVfcVQqBvbg+s88CmOagRS/0ZwzjALoUhkA6IcJGg8j5mzO7iAV24qirSihtQuH+YwJ5jVU7YaN+Vf9EQ9QA==",
   "success": true,
   "projectFilePath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Web\\CRS.Web.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,7 @@
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.13\\microsoft.aspnetcore.cryptography.internal.5.0.13.nupkg.sha512",
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.13\\microsoft.aspnetcore.cryptography.keyderivation.5.0.13.nupkg.sha512",
-    "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.10\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.10.nupkg.sha512",
+    "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.13\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.13.nupkg.sha512",
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
     "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.13\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.13.nupkg.sha512",
