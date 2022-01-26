@@ -20,12 +20,12 @@ namespace CRS.Core.Dtos
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "نوع السيارة")]
         public string Type { get; set; }
-
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "سعر شراء السيارة")]
         public float PurchasePrice { get; set; }
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "موديل السيارة")]
+        [DataType(DataType.Date)]
         public DateTime ProductionYear { get; set; }
         [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "رقم الشاصي السيارة")]

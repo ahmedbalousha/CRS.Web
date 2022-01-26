@@ -32,6 +32,7 @@ namespace CRS.Core.Dtos
         [Display(Name = "النهاية ")]
         [DataType(DataType.Date)]
         public DateTime EndDate { get; set; }
+        [Required(ErrorMessage = "هذا الحقل مطلوب")]
         [Display(Name = "صاحب الاعلان ")]
         public string AdvertiserId { get; set; }
         public int? CarId { get; set; }

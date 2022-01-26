@@ -35,7 +35,7 @@ namespace CRS.Infrastructure.AutoMapper
         CreateMap<Advertisement, UpdateAdvertisementDto>().ForMember(x => x.Image, x => x.Ignore());
 
         CreateMap<Car, CarViewModel>()
-        .ForMember(x => x.ProductionYear, x => x.MapFrom(x => x.ProductionYear.ToString("yyyy:MM:dd")))
+        .ForMember(x => x.ProductionYear, x => x.MapFrom(x => x.ProductionYear.ToString("yyyy")))
         .ForMember(x => x.Status, x => x.MapFrom(x => x.Status.ToString()));
         CreateMap<CreateCarDto, Car>().ForMember(x => x.ImageUrl, x => x.Ignore())
         .ForMember(x => x.Owner, x => x.Ignore()).ForMember(x => x.CarCompany, x => x.Ignore());
