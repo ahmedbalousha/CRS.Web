@@ -20,8 +20,8 @@ namespace CRS.Data
             {
                 var context = scope.ServiceProvider.GetRequiredService<CRSDbContext>();
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
-                context.SeedCategory().Wait();
-                userManager.SeedUser().Wait();
+                //context.SeedCategory().Wait();
+                //userManager.SeedUser().Wait();
 
             }
             catch (Exception ex)

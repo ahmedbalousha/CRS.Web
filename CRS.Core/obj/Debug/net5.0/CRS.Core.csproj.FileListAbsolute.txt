@@ -22,3 +22,15 @@ D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.csp
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\ref\CRS.Core.dll
 D:\Users\ahmedbalousha\Source\Repos\CRS.A\CRS.Core\obj\Debug\net5.0\CRS.Core.pdb
+D:\source\repos\CRS.Web\CRS.Core\bin\Debug\net5.0\CRS.Core.deps.json
+D:\source\repos\CRS.Web\CRS.Core\bin\Debug\net5.0\CRS.Core.dll
+D:\source\repos\CRS.Web\CRS.Core\bin\Debug\net5.0\CRS.Core.pdb
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.csproj.AssemblyReference.cache
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.AssemblyInfoInputs.cache
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.AssemblyInfo.cs
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.csproj.CoreCompileInputs.cache
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.dll
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\refint\CRS.Core.dll
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\CRS.Core.pdb
+D:\source\repos\CRS.Web\CRS.Core\obj\Debug\net5.0\ref\CRS.Core.dll

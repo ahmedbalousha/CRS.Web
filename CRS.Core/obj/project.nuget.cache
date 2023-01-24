@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YCZkqPrPwTn60jSg6zcqj/Ap6sQboPRCqc+wQE1BGSP4cHwjIC4ZRcpeGwlnFXGHl0rVmNFlHPgUiBfqHc5j5Q==",
+  "dgSpecHash": "TQW6Me8fqnWRNdE+RpOjkbiOtta6W8iTgLmYt9qoo0T3q1SmKbogpFmyfN5FalQLn89jxTcOkaUWiJOl7vBUcg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj",
+  "projectFilePath": "D:\\source\\repos\\CRS.Web\\CRS.Core\\CRS.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
-    "C:\\Users\\ahmedbalousha\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\ahmedbalousha\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

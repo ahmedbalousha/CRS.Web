@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj": {}
+    "D:\\source\\repos\\CRS.Web\\CRS.Core\\CRS.Core.csproj": {}
   },
   "projects": {
-    "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj": {
+    "D:\\source\\repos\\CRS.Web\\CRS.Core\\CRS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj",
+        "projectUniqueName": "D:\\source\\repos\\CRS.Web\\CRS.Core\\CRS.Core.csproj",
         "projectName": "CRS.Core",
-        "projectPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\CRS.Core.csproj",
-        "packagesPath": "C:\\Users\\ahmedbalousha\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\ahmedbalousha\\Source\\Repos\\CRS.A\\CRS.Core\\obj\\",
+        "projectPath": "D:\\source\\repos\\CRS.Web\\CRS.Core\\CRS.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\CRS.Web\\CRS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ahmedbalousha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

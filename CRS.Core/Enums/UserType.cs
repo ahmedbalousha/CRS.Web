@@ -12,7 +12,6 @@ namespace CRS.Core.Enums
         Advertiser = 2,
         Customer = 3,
         CarRental = 4,
-
         Owner = 5,
 
     }
